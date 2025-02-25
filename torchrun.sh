@@ -1,4 +1,5 @@
 model=/data/xkgao/llama.cpp/mindie/official/DeepSeek-R1-Distill-Qwen-32B_W8A8
+#model=/bchen/model/DeepSeek-R1-Distill-Llama-70B/
 
 torchrun --nproc_per_node 2 \
          --master_port 20037 \
