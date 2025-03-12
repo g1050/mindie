@@ -1,4 +1,4 @@
-curl 127.0.0.1:10828/generate -d '{
+curl 127.0.0.1:10827/generate -d '{
 "prompt": "What is deep learning?",
 "max_tokens": 32,
 "stream": false,
